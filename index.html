@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="card__img-holder">
+          <img
+            class="card__main-img"
+            src="images/image-equilibrium.jpg"
+            alt="equilibrium"
+            width="100%"
+          />
+          <div class="card__main-img-hover">
+            <img src="images/icon-view.svg" alt="view" />
+          </div>
+        </div>
+        <h1 class="card__title">Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex card__price-group">
+          <div class="flex">
+            <img src="images/icon-ethereum.svg" alt="ethereum" />
+            <p class="card__price">0.041 ETH</p>
+          </div>
+          <div class="flex">
+            <img src="images/icon-clock.svg" alt="clock" />
+            <p class="card__valid">3 days</p>
+          </div>
+        </div>
+        <div class="flex">
+          <img
+            class="card__avatar"
+            height="26"
+            width="26"
+            src="images/image-avatar.png"
+            alt="avatar"
+          />
+          <p class="card__avatar-title">
+            left Creation of <span class="card__avator-name">Jules Wyvern</span>
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/DhanBirSunwar/nft-preview-card-component-main"
+        >Dhan Bir Sunwar</a
+      >.
+    </footer>
+  </body>
+</html>
